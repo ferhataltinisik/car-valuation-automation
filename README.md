@@ -99,21 +99,21 @@ Feature: Validate Car Details on Car Valuation Website
     Then I should see all vehicle details matched correctly
 ```
 
-📄 Configuration - application.properties
+### 📄 Configuration - application.properties
 
-base.url = https://example-car-valuation-site.com
-input.file.path = src/test/resources/testDataFiles/car_input.txt
+base.url = https://car-checking.com/ <br>
+input.file.path = src/test/resources/testDataFiles/car_input.txt<br>
 output.file.path = src/test/resources/testDataFiles/car_output.txt
 
 
 
-✨ Future Enhancements
-Parallel execution support
-Screenshots on failure in Extent Report
-Jenkins integration for CI/CD
-Multi-browser support (Chrome, Firefox, Edge)
+### ✨ Future Enhancements<br>
+Parallel execution support <br>
+Screenshots on failure in Extent Report<br>
+Jenkins integration for CI/CD<br>
+Multi-browser support (Chrome, Firefox, Edge)<br>
 
 
-👨‍💻 Author
-Ferhat Altinisik
-Senior QA Automation Engineer
+### 👨‍💻 Author<br>
+Ferhat Altinisik<br>
+Senior QA Automation Engineer<br>
