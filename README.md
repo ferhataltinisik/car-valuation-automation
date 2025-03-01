@@ -97,9 +97,7 @@ Feature: Validate Car Details on Car Valuation Website
     And I am on the home page
     When I search each vehicle registration on car valuation website
     Then I should see all vehicle details matched correctly
-
-
-
+```
 
 📄 Configuration - application.properties
 
