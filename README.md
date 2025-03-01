@@ -16,11 +16,28 @@ This project is an **end-to-end automation framework** designed to validate vehi
 ✅ Designed using **Page Object Model (POM)** for scalability and maintainability
 
 ---
+## 📂 Project Structure
 
-## 🏗️ Project Structure
-rc/ ├── main/ │ ├── java/ │ │ ├── config/ // ConfigManager for reading properties │ │ ├── model/ // VehicleDetails model class │ │ ├── pages/ // Page objects (HomePage, CarDetailsReportPage) │ │ ├── utils/ // Utilities (FileReaderUtil, DataComparator, Log) │ │ └── runner/ // Test runner class (TestNG Cucumber Runner) │ └── resources/ │ ├── application.properties // Configuration properties (base URL, file paths, etc.) ├── test/ │ ├── java/ │ │ ├── stepdefinitions/ // Step Definitions for Cucumber Steps │ │ ├── hooks/ // Hooks (if any) │ │ └── runner/ // Test Runner for Cucumber-TestNG integration │ └── resources/ │ ├── features/ // Cucumber Feature Files │ └── testDataFiles/ // Input/Output Files (car_input.txt, car_output.txt)
-
-
+```text
+src/
+├── main/
+│   ├── java/
+│   │   ├── config/            // ConfigManager for reading properties
+│   │   ├── model/              // VehicleDetails model class
+│   │   ├── pages/               // Page Objects (HomePage, CarDetailsReportPage)
+│   │   ├── utils/                // Utilities (FileReaderUtil, DataComparator, Log)
+│   │   └── runner/              // Test runner class (TestNG Cucumber Runner)
+│   └── resources/
+│       └── application.properties  // Configuration properties (base URL, file paths, etc.)
+├── test/
+│   ├── java/
+│   │   ├── stepdefinitions/    // Step Definitions for Cucumber Steps
+│   │   ├── hooks/               // Hooks (if any)
+│   │   └── runner/              // Test Runner for Cucumber-TestNG integration
+│   └── resources/
+│       ├── features/           // Cucumber Feature Files
+│       └── testDataFiles/      // Input/Output Files (car_input.txt, car_output.txt)
+```
 ---
 
 ## ⚙️ Technologies Used
